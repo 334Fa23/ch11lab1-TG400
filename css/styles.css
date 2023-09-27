@@ -231,6 +231,10 @@ footer a {
     text-decoration: none;
 }
 
+.social img {
+    display: inline-block;
+    padding: 4%;
+}
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 550px), print {
     
@@ -301,7 +305,15 @@ footer a {
         margin: 0 auto;
     }
     
+    /* Tablet Viewpoint: Style rules for footer area */
+    .copyright {
+        float: left;
+        width: 25%;
+    }
+    
 }
+
+
 
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 769px), print {
